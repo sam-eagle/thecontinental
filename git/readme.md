@@ -1,4 +1,18 @@
 # GIT Commands
 
-git clone url-here
-git clone --branch branch-name --single-branch url-here .
+| Command | Description |
+| ----------- | ------- |
+| git clone url-here | Regular clone |
+| git clone --branch branch-name --single-branch url-here . | Clone a branch into current directory |
+| git branch -a | List all branches |
+| git add file | Add a file to local GIT tracking |
+| git commit -m "messsage" | Commit outstanding changes (added) locally |
+| git push | Push committed changes to remote repository |
+| git config --global --unset credential.helper | Unset saved credentials |
+| git config --global --list | List key / value pairs in Global settings |
+| git ls-remote | Query remote repository without fetching |
+| git lfs install | Install large file storage |
+| git lfs status | Show files to be LFS tracked and ready to be committed/pushed |
+| git lfs ls-files | List LFS files being tracked, only shows whats local |
+| git lfs track "patter-here" | Add file patter for LFS |
+
