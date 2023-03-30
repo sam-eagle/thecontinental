@@ -16,3 +16,17 @@
 | git lfs ls-files | List LFS files being tracked, only shows whats local |
 | git lfs track "patter-here" | Add file patter for LFS |
 
+## Scenario #1
+Pull changes and wipe out local changes
+* git reset --hard HEAD
+* git pull
+
+## Scenario #2
+Change, add, commit and push
+* Modify a file
+* git add file-name
+* git commit -m "why file is changed"
+* git push
+
+
+
