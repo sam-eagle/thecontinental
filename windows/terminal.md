@@ -1,8 +1,8 @@
 # Terminal Commands
 
-| Description | Command |
+| Command | Description |
 | ----------- | ------- |
-| Standard SSH | ssh user@host |
-| SSH Port Forward | ssh -Lport:host:port user@host |
-| Verify a Download file | certutil -hasfile downloaded-file SHA512 |
-| Alias | doskey aliasname=ssh user@hostname |
+| ssh user@host | Standard SSH  |
+| ssh -Lport:host:port user@host | SSH Port Forward | 
+| certutil -hasfile downloaded-file SHA512 | Verify a Download file | 
+| doskey aliasname=ssh user@hostname | Alias | 
