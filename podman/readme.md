@@ -22,4 +22,5 @@
 | podman logs --tail 100 container-id-name |  Show last 100 lines for log of container |
 | podman logs --timestamps --tail 100 container-id-name |  Show last 100 lines for log of container with timestamps |
 | podman logs --follow container-id-name | Follow or Unix tail a log of container |
-
+| podman pull registry:port/image-name:version --tls-verify=false | Pull image from registry and ignore certificate verification |
+| podman tag image-id new-tag:version | Tag an image with an extra new name |
