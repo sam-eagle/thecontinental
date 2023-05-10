@@ -11,4 +11,4 @@
 
 ### Scenario #1
 Find and grep files at the same time
-* <code>find . -name "*.*" -print -exec grep something {} \;</code>
+* <code>find . -name "*.*" -print -exec grep something {} \\;</code>
