@@ -12,6 +12,7 @@
 | openssl s_client -showcerts -connect  uri:port | View certificate details of URI |
 | yum list all | RHEL list all packages |
 | yum list installed | RHEL list all installed packages |
+| netstat -tlupn | RHEL list ports listening |
 
 
 ### Scenario #1
