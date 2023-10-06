@@ -10,6 +10,7 @@
 | git push | Push committed changes to remote repository |
 | git config --global --unset credential.helper | Unset saved credentials |
 | git config --global --list | List key / value pairs in Global settings |
+| git config --global http.sslBackend schannel | Change SSL to use Windows layer for certs |
 | git ls-remote | Query remote repository without fetching |
 | git lfs install | Install large file storage |
 | git lfs status | Show files to be LFS tracked and ready to be committed/pushed |
