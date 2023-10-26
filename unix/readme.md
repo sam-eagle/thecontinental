@@ -10,6 +10,7 @@
 | openssl x509 -in pem-file -text | View contents of .pem certificate file |
 | openssl storeutl -noout -text -certs chain.pem | View contents of .pem with chain of certs, newer openssl required |
 | openssl s_client -showcerts -connect  uri:port | View certificate details of URI |
+| openssl x509 -enddate -noout -in test.pem | Show the expiration date of certificate |
 | yum list all | RHEL list all packages |
 | yum list installed | RHEL list all installed packages |
 | netstat -tlupn | RHEL list ports listening |
