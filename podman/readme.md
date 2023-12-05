@@ -11,6 +11,7 @@
 | podman ps -a | List running containers even if stopped |
 | podman ps --all --storage | List built or remnants of built containers |
 | podman ps -a -pod | List running containers, even if stopped with pod name |
+| podman rm -f container-id | Force remove a container e.g. stuck in stopping state |
 | podman rmi image-id | Remove image from local storage |
 | podman rmi -f image-id | Force removal of image from local storage |
 | podman --log-level debug ... | Debug the podman command itself |
