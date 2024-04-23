@@ -14,6 +14,7 @@
 | yum list all | RHEL list all packages |
 | yum list installed | RHEL list all installed packages |
 | netstat -tlupn | RHEL list ports listening |
+| nc -lk4 x.x.x.x y.y | Start a TCP listener for testing passing IP and PORT |
 
 
 ### Scenario #1
