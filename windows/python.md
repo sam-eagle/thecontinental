@@ -21,5 +21,5 @@ How to setup PYTHON on Windows 10, using PYTHON 3.12.5 (used at time of writing 
 
 ## Test Virtual Env
 Presuming the last CMD window is open and VENV1 is active:
-* Type <code>python -m pip install --upgrade pip<code> to update VENV1 only
+* Type <code>python -m pip install --upgrade pip</code> to update VENV1 only
 * Type <code>pip3 install --list</code> to list what packages are installed in VENV1 (not the system one)
