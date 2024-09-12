@@ -14,8 +14,8 @@ How to setup PYTHON on Windows 10, using PYTHON 3.12.5 (used at time of writing 
 ## Create a Virtual Env
 * Open a CMD window
 * Type <code>python -m venv c:/users/user1/python/venv1/</code>
-* VENV1 virtual environment is now created under c:/users/user1/python/venv1/
-* Type <code>cd c:/users/user1/python/venv1/scripts/<code>
+* VENV1 virtual environment is now created under c:/users/user1/python/venv1/ 
+* Type <code>cd c:/users/user1/python/venv1/scripts/<code> 
 * Type <code>activate</code> and hit return.
 * The prompt will now include the virtual env name which means VENV1 is now the active python interpretor (not the system one)
 
