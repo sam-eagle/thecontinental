@@ -27,7 +27,7 @@ Presuming the last CMD window is open and VENV1 is active:
 ## Install Jupyter into Virtual Env
 Presuming the last CMD window is open and VENV1 is active:
 * Type <code>cd c:/users/user1/python/venv1//</code> to root of virtual environment 
-* Type <code>python.exe -m pip install ipkernel -U --force-reinstall</code>
+* Type <code>python.exe -m pip install ipykernel -U --force-reinstall</code>
 * Type <code>pip3 install nbconvert</code> to install nbconvert
 * Type <code>pip3 install pandoc</code> to install pandoc
 * Type <code>pip3 install latext</code> to install latex
