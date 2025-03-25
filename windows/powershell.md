@@ -3,6 +3,5 @@
 | Command | Description |
 | ----------- | ------- |
 | Get-ChildItem -recurse -Force -Filter *.exe, *.zip \| select directory, name, length | Recusively find files, show details  |
-| ssh -Lport:host:port user@host | SSH Port Forward | 
-| certutil -hasfile downloaded-file SHA512 | Verify a Download file | 
-| doskey aliasname=ssh user@hostname | Alias | 
+| Get-ChildItem -recurse -Force -Filter *.exe, *.zip \| select fullname, length -auto | Recusively find files, show details  |
+| Get-ChildItem . -Recurse \| where { -not $_PSIsContainer } \| group Extension -NoElement \| sort \| count -desc | Count by extension |
