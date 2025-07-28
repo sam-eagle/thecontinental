@@ -4,6 +4,7 @@
 | ------- | ----------- |
 | which program-name | Indicates which program + path is being used |
 | ls -lah | List directory contents, hidden files and human readable size |
+| ls -la --time-style=full-iso | Show full timestamp |
 | df -h | Disk space usage and human readable size |
 | curl -k -v https://somewhere | Get contents of URL, verbose, and ignore certificate |
 | curl --help all | Useful |
