@@ -1,2 +1,2 @@
 # The Continental
-Neuatral ground for helpful snippets.
+Neutral ground for helpful snippets.
