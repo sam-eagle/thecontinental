@@ -11,7 +11,9 @@ order by username asc;
 <br/>
 
 --database date/timestamp details
+
 select SYSDATE, DBTIMZEONE, SESSIONTIMEZONE, SYSTIMESTAMP, CURRENT_TIMESTAMP from dual;
 
 --what timezone file is being used
+
 select * from v$timezone_file;
